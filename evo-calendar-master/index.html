@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Evo Calendar</title>
+
+    <meta charset="utf-8">
+
+
+    <link rel="icon" href="favicon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./evo-calendar/css/evo-calendar.css">
+
+    <link rel="stylesheet" type="text/css" href="./demo/demo.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="main-container">
+                    
+            <div id="demoEvoCalendar"></div>
+                    <img src="/src/buddishday.png" alt="">
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="./evo-calendar/js/evo-calendar.js"></script>
+    <script src="./demo/demo.js"></script>
+    
+    <script>
+        // initialize your calendar, once the page's DOM is ready
+        $(document).ready(function() {
+            $('#calendar').evoCalendar({
+                settingName: settingValue
+            })
+        })
+        </script>
+</body>
+</html>
